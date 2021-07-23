@@ -16,21 +16,24 @@ html body{
 
 
 body{
-    background-color: #fff;
+    background-color: rgb(15, 134, 138);
 }
 
 #logo{
     position: relative;
-    left: 47%;
-    height: 80px;
-    width: 80px;
+    left: 45%;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    
 }
 
 h1{
     display: block;
-    font-size: 45px;
-    line-height: 54px;
-    margin-left: 45px;
+    font-size: 48px;
+    line-height: 64px;
+    padding-right: 1em;
+    margin: 60px;
     
 }
 
@@ -39,8 +42,8 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 55px;
-    margin-left: 35px;
+    margin: 45px;
+    margin-left: 25px;
     padding: 10px;
     
 }
@@ -48,7 +51,7 @@ h1{
 input{
     border: none;
     border-bottom:  1px solid rgba(0,0,0,.85);
-    background-color: #fff;
+    background-color: rgb(15, 134, 138);
     max-width: 100%;
     line-height: 1.2;
     padding: 8px 15px;
@@ -76,11 +79,12 @@ button{
     position: relative;
     width: auto;
     background-color: #ff8900 ;
-    color: #fff;
+    color: rgb(255, 255, 255);
     width: 150px;
     height: 30px;
     top: 30px;
     left: -25px;
     cursor: pointer;
+    border: none;
     
 }
